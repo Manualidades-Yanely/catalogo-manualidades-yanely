@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Manualidades Yanely</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #fdf6f0;
+      color: #4a2c2a;
+    }
+    header {
+      background: linear-gradient(to right, #fcd5ce, #d8e2dc);
+      padding: 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    header h1 {
+      font-size: 1.8em;
+    }
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: #6d4c41;
+      font-weight: bold;
+    }
+    .hero {
+      background: #fff1f5;
+      text-align: center;
+      padding: 50px 20px;
+    }
+    .hero h2 {
+      font-size: 2em;
+      margin-bottom: 15px;
+    }
+    .hero button {
+      padding: 10px 20px;
+      background-color: #cdb4db;
+      border: none;
+      border-radius: 10px;
+      color: white;
+      font-size: 1em;
+      cursor: pointer;
+    }
+    .catalogo {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+      padding: 40px;
+      background-color: #f8edeb;
+    }
+    .producto {
+      background-color: #fff;
+      border-radius: 10px;
+      padding: 15px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+    .producto img {
+      width: 100%;
+      border-radius: 10px;
+    }
+    .personalizado, .sobre-nosotros {
+      padding: 40px;
+      background-color: #e2ece9;
+      text-align: center;
+    }
+    footer {
+      background-color: #d0cde1;
+      padding: 20px;
+      text-align: center;
+      font-size: 0.9em;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Manualidades Yanely</h1>
+    <nav>
+      <a href="#catalogo">Catálogo</a>
+      <a href="#personaliza">Personaliza</a>
+      <a href="#nosotros">Sobre Nosotros</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>¡Crea recuerdos únicos con Manualidades Yanely!</h2>
+    <button>Ver catálogo</button>
+  </section>
+
+  <section id="catalogo" class="catalogo">
+    <div class="producto">
+      <img src="https://via.placeholder.com/200" alt="Taza personalizada">
+      <h3>Taza personalizada</h3>
+      <p>Q180</p>
+    </div>
+    <div class="producto">
+      <img src="https://via.placeholder.com/200" alt="Llavero">
+      <h3>Llavero</h3>
+      <p>Q80</p>
+    </div>
+    <div class="producto">
+      <img src="https://via.placeholder.com/200" alt="Decoración">
+      <h3>Decoración</h3>
+      <p>Q200</p>
+    </div>
+    <div class="producto">
+      <img src="https://via.placeholder.com/200" alt="Sublimación">
+      <h3>Sublimación</h3>
+      <p>Q120</p>
+    </div>
+  </section>
+
+  <section id="personaliza" class="personalizado">
+    <h2>¿Quieres algo único? ¡Lo diseñamos para ti!</h2>
+    <button>Solicita tu diseño</button>
+  </section>
+
+  <section id="nosotros" class="sobre-nosotros">
+    <h2>Sobre nosotros</h2>
+    <p>Somos un emprendimiento guatemalteco que crea productos con amor y dedicación.</p>
+  </section>
+
+  <footer id="contacto">
+    <p>Contacto: email@yanely.com | Tel: (012) 123 4567</p>
+    <p>Síguenos en redes sociales</p>
+  </footer>
+</body>
+</html>
